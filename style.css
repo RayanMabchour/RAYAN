@@ -1,0 +1,640 @@
+@import url(https://fonts.googleapis.com/css2?family=Poppins&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Assistant:wght@700&display=swap);
+html,
+video {
+  width: 100vw;
+}
+*,
+.logo p,
+div.logo {
+  transition: 0.2s ease-in-out;
+}
+div.logo,
+li {
+  position: relative;
+}
+body,
+li:hover::before,
+nav {
+  width: 100%;
+}
+li,
+li a {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+h2 span,
+li a span {
+  color: var(--text);
+}
+.contact .brand,
+ul {
+  gap: 30px;
+}
+.serveces,
+.service div,
+.social-media {
+  display: flex;
+  gap: 10px;
+}
+.contact-description button:hover,
+.contact:hover,
+.serveces .service button:hover,
+.service:hover,
+.service:hover i,
+div.contact.facebook-method:hover .brand a.facebook {
+  box-shadow: 0 0 10px 1px var(--color), inset 0 0 10px 1px var(--color);
+}
+#projects .text,
+.popup,
+h1,
+li,
+li a {
+  text-transform: capitalize;
+}
+.p1 a,
+li a {
+  text-decoration: none;
+}
+.p1-desc,
+.popup,
+li:active a,
+li:active::before {
+  opacity: 0;
+}
+.brand,
+.contact .brand,
+.logo p,
+.p1 p,
+.serveces i,
+.service p {
+  text-align: center;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Poppins, sans-serif;
+  color: #fff;
+}
+html {
+  scroll-behavior: smooth;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 35px;
+}
+body {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+}
+video {
+  height: 100vh;
+  position: fixed;
+  object-fit: cover;
+  z-index: -10;
+}
+div.logo {
+  background-color: #fff;
+  width: 100px;
+  height: 95px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  left: 0;
+  margin-right: 150px;
+}
+.logo p {
+  color: transparent;
+  font-size: 20px;
+  visibility: hidden;
+}
+#home,
+li a {
+  color: #fff;
+}
+.logo img {
+  width: 100px;
+  height: 95%;
+  padding: 10px;
+}
+.logo:hover {
+  width: 250px;
+  border-radius: 7px 50px;
+  margin-right: 0;
+}
+.logo:hover p {
+  color: #000;
+  visibility: visible;
+}
+.brand a:hover,
+.contact:hover .brand a,
+.facebook-method:hover a,
+.facebook:hover,
+.social-media a:hover {
+  color: var(--color);
+  text-shadow: -3px -3px 20px var(--color), 3px 3px 20px var(--color);
+}
+.top {
+  width: 0;
+  height: 0;
+}
+nav {
+  background-color: rgba(0, 0, 0, 0.677);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 10px 0;
+  position: sticky;
+  top: -10px;
+  z-index: 10000000000000000;
+}
+ul {
+  display: flex;
+  width: 400px;
+  justify-content: center;
+}
+li {
+  list-style: none;
+  font-size: 17px;
+}
+li::before {
+  content: "";
+  width: 0%;
+  height: 3px;
+  background-color: azure;
+  position: absolute;
+  bottom: -2px;
+  border-radius: 30px;
+  transition: 0.1s ease-in-out;
+}
+.image img,
+.p1,
+.p1:hover,
+.service div,
+li a {
+  position: relative;
+}
+.brand a,
+.fa-instagram:hover,
+.instagram-method:hover,
+.instagram-method:hover a,
+.instagram-method:hover button,
+.instagram-method:hover span,
+.popup,
+.social-media a {
+  transition: 0.2s ease-in-out;
+}
+li a {
+  font-size: 15px;
+}
+li a span {
+  font-size: 19px;
+  margin: 0 1px 0 0;
+  text-shadow: 0 0 8px var(--text), 0 0 8px var(--text), 0 0 8px var(--text);
+}
+li a i {
+  margin: 0 5px 0 0;
+  color: #f05;
+  text-shadow: 0 0 8px #f05, 0 0 8px #f05;
+}
+.brand a,
+.social-media a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 30px;
+}
+a.facebook {
+  border: 2px solid #fff;
+  border-radius: 50%;
+  width: 30px;
+  height: 31px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Assistant, sans-serif;
+}
+.brand a.facebook {
+  width: 55px;
+  height: 54px;
+}
+.facebook-method:hover a,
+.facebook:hover {
+  border: 2px solid var(--color);
+}
+.social-media {
+  margin-right: 70px;
+}
+.brand a {
+  font-size: 60px;
+}
+.fa-instagram:hover {
+  animation: 2s ease-in-out infinite instagram;
+}
+@keyframes instagram {
+  0%,
+  100% {
+    color: var(--color);
+    text-shadow: -3px -3px 20px var(--color), 3px 3px 20px var(--color);
+  }
+  50% {
+    color: #ff0040;
+    text-shadow: -3px -3px 20px #ff0040, 3px 3px 20px #ff0040;
+  }
+}
+#home {
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+  align-self: center;
+}
+p {
+  width: 60vw;
+}
+.image {
+  width: 250px;
+  height: 280px;
+  overflow: hidden;
+  border: 5px solid #fff;
+  border-radius: 2px 50px;
+  animation: 3s ease-in-out infinite imageAnime;
+}
+@keyframes imageAnime {
+  0%,
+  100% {
+    box-shadow: 0 0 5px 2px #fff;
+    transform: translateY(0);
+  }
+  50% {
+    box-shadow: 0 0 15px 5px #fff;
+    transform: translateY(-20px);
+  }
+}
+.image img {
+  width: 100%;
+  height: var(99% -150px);
+  top: -150px;
+}
+h2 span {
+  text-shadow: 0 0 10px var(--text), 0 0 10px var(--text);
+}
+.contact-me .contact,
+.service {
+  width: 400px;
+  height: fit-content;
+  border: 6px solid var(--color);
+  transition: 0.2s ease-in-out;
+  border-radius: 80px 10px 10px;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+.contact-me .contact {
+  border-radius: 10px;
+  align-items: center;
+}
+#serveces {
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 40px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0 100px;
+}
+.serveces {
+  width: 100vw;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.contact:hover,
+.service:hover {
+  scale: 1.03;
+}
+.p1:hover,
+.popup {
+  box-shadow: 0 0 20px 1px #fff;
+}
+.service p {
+  width: 250px;
+}
+.serveces i {
+  width: 120px;
+  height: 120px;
+  border: 5px solid var(--color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  border-radius: 69px 0 50px;
+  border-top: none;
+  border-left: none;
+}
+.service div {
+  flex-direction: column;
+  align-items: center;
+  font-size: 15px;
+  margin-top: 10px;
+}
+.contact-description button,
+.serveces .service button {
+  background-color: var(--color);
+  padding: 10px 35px;
+  color: #000;
+  border: solid var(--color);
+  text-transform: uppercase;
+  font-size: 20px;
+  border-radius: 50px;
+  margin-bottom: 20px;
+}
+.p1,
+.p1 a {
+  background-color: #fff;
+}
+#serveces .text {
+  margin-top: 100px;
+}
+.contact-description {
+  width: fit-content;
+  display: block;
+  overflow: visible;
+  text-align: center;
+}
+#projects,
+.p1,
+.projects {
+  display: flex;
+}
+.contact-description p {
+  width: 350px;
+  margin: 20px 0;
+}
+.contact-description button:hover,
+.serveces .service button:hover {
+  border: 3px solid var(--color);
+  background-color: transparent;
+  color: var(--color);
+  text-shadow: 0 0 30px var(--color), 0 0 10px var(--color);
+}
+#projects .text span,
+#serveces span,
+.brand h1 span,
+.text span {
+  color: var(--color);
+  text-shadow: 0 0 30px var(--color), 0 0 10px var(--color),
+    0 0 30px var(--color);
+  font-size: 50px;
+  margin-right: 2px;
+  font-weight: 700;
+}
+#projects .text {
+  font-size: 50px;
+  visibility: hidden;
+  margin: 0 0 40px;
+}
+.p1 {
+  width: 350px;
+  height: 250px;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 12px;
+  overflow: hidden;
+}
+.projects {
+  height: fit-content;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+#projects {
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+.popup,
+div.contact-me#contact-me {
+  justify-content: center;
+  display: flex;
+}
+.p1:hover {
+  scale: 1.1;
+  z-index: 1000;
+  border: 5px solid #fff;
+}
+.p1:hover .p1-desc {
+  opacity: 1;
+}
+.popup {
+  background: #fff;
+  color: #000;
+  width: fit-content;
+  padding: 10px;
+  position: sticky;
+  top: 50%;
+  left: 40%;
+  z-index: -1000;
+  align-items: center;
+  font-size: 20px;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  transform: translateY(10px);
+  text-shadow: 0 0 10px #000, 0 0 20px #000;
+}
+.p1 img,
+.p1 video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 0;
+}
+.p1 a,
+.p1 p {
+  z-index: 1;
+  position: relative;
+}
+.p1 p {
+  width: 100%;
+  margin-top: 10px;
+}
+.p1 a {
+  border-radius: 30px;
+  margin-top: 5px;
+  color: #000;
+  padding: 10px 25px;
+  text-transform: uppercase;
+  border: 2px solid #fff;
+}
+.p1 a:hover {
+  color: #fff;
+  background-color: transparent;
+}
+.p1-desc {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.445);
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+.brand {
+  margin-top: 20px;
+}
+.facebook-method .brand a.facebook {
+  margin: 0 auto;
+  border: 5px solid;
+}
+div.contact-me#contact-me {
+  align-items: center;
+  flex-direction: column;
+  gap: 80px;
+  width: 100vw;
+  margin: 80px 0 0;
+  align-self: center;
+  justify-self: center;
+}
+.contact a:hover,
+.contact:hover a {
+  border: none;
+}
+.contact-platform {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  width: 99vw;
+  margin: 0 0 50px;
+  align-self: center;
+  justify-self: center;
+}
+.list-phone,
+.list-phone.off#list-phone,
+nav i.fa-list {
+  display: none;
+}
+.list-phone.on#list-phone {
+  display: flex;
+}
+@media (max-width: 1000px) {
+  #home .image {
+    scale: 0.8;
+  }
+  nav p {
+    display: none;
+  }
+  nav .logo {
+    scale: 0.7;
+    margin: 0;
+  }
+  nav .logo:hover {
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+  }
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .social-media {
+    margin: 0;
+  }
+}
+@media (max-width: 730px) {
+  nav i.listBtn {
+    display: flex;
+    font-size: 30px;
+  }
+  .social-media,
+  nav ul {
+    display: none;
+  }
+  nav {
+    justify-content: space-between;
+  }
+  #list-phone {
+    display: flex;
+  }
+  nav div.list-phone ul.list-phone {
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.677);
+    position: absolute;
+    justify-content: center;
+    align-items: flex-start;
+    font-size: 30px;
+    height: fit-content;
+    padding: 0 0 10px 30px;
+    left: 0;
+    top: 105px;
+    width: 40%;
+  }
+  video {
+    width: 100%;
+    height: 100%;
+  }
+  .contact-platform {
+    position: relative;
+    width: 110vw;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  .popup {
+    left: 30%;
+  }
+}
+@media (max-width: 450px) {
+  #home,
+  * {
+    text-align: center;
+  }
+  nav {
+    padding: 10px 20px 0 0;
+    top: 0;
+    width: 115vw;
+  }
+  .contact-platform {
+    position: unset;
+    width: 110vw;
+    justify-content: flex-end;
+  }
+  .contact,
+  .service {
+    scale: 0.9;
+  }
+  .service:hover {
+    scale: 0.96;
+  }
+  #projects,
+  #serveces {
+    width: 117vw;
+  }
+  .contact:hover {
+    scale: 0.95;
+  }
+  #home .image {
+    scale: 0.8;
+  }
+  #home {
+    gap: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 0 0 0 15%;
+  }
+  div.contact-me#contact-me {
+    width: 117vw;
+    padding: 0 0 0 45px;
+  }
+}

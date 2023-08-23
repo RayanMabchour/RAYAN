@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Rayan Mabchour</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Screenshot 2023-08-16 204747.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <div class="top" id="top"></div>
+  <body>
+    <video src="background_1.mp4" muted loop autoplay></video>
+    <nav>
+      <div class="logo">
+        <img src="site-imgs/Screenshot 2023-08-16 204747.png" alt="" />
+        <p>Rayan Mabchour</p>
+      </div>
+      <ul>
+        <li>
+          <a href="#top"><i class="fa-solid fa-house"></i><span>h</span>ome</a>
+        </li>
+        <li>
+          <a href="#serveces"
+            ><i class="fa-solid fa-bag-shopping"></i><span>s</span>ervices</a
+          >
+        </li>
+        <li>
+          <a href="#contact-me"
+            ><i class="fa-solid fa-phone"></i><span>c</span>ontact me</a
+          >
+        </li>
+      </ul>
+      <div class="social-media">
+        <a
+          href="https://www.facebook.com/profile.php?id=100080686325242&mibextid=b06tZ0"
+          class="facebook"
+          style="--color: rgb(0, 68, 255)"
+          target="_blank"
+          >f</a
+        ><a
+          href="https://wa.me/qr/7VLYJ2LTHGDYI1"
+          class="fa-brands fa-whatsapp"
+          style="--color: rgb(0, 255, 85)"
+          target="_blank"
+        ></a
+        ><a
+          href="https://instagram.com/rayan__mabchour?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+          class="fa-brands fa-instagram"
+          style="--color: rgb(183, 0, 255)"
+          target="_blank"
+        ></a>
+      </div>
+      <div class="list-phone off" id="list-phone">
+        <ul class="list-phone">
+          <li>
+            <a href="#top"
+              ><i class="fa-solid fa-house"></i><span>h</span>ome</a
+            >
+          </li>
+          <li>
+            <a href="#serveces"
+              ><i class="fa-solid fa-bag-shopping"></i><span>s</span>ervices</a
+            >
+          </li>
+          <li>
+            <a href="#contact-me"
+              ><i class="fa-solid fa-phone"></i><span>c</span>ontact me</a
+            >
+          </li>
+        </ul>
+      </div>
+      <i class="fa-solid fa-list listBtn" onclick="toggelList()"></i>
+    </nav>
+    <div class="popup">ther is no project yet</div>
+    <div id="home">
+      <div class="image"><img src="site-imgs/profile.jpg" alt="" /></div>
+      <div class="descreption">
+        <h1>
+          <span style="color: #f05; text-shadow: 0 0 8px #f05, 0 0 8px #f05"
+            >I</span
+          >am
+        </h1>
+        <h2>
+          <span style="--text: rgb(192, 0, 54)">Rayan</span
+          ><span style="--text: white">Mabchour</span>
+        </h2>
+        <p>
+          a website programmer, and I also specialize in design and video
+          editing services. I have over 2 yours of experience in web
+          development and programming, offering innovative and comprehensive
+          solutions to my clients' needs. With my design skills, I can transform
+          ideas into reality through attractive designs and user-friendly
+          interfaces. Leveraging my background in video editing, I can
+          creatively blend different elements to produce distinctive visual
+          content. My goal is always to achieve customer satisfaction by
+          providing customized solutions and high-quality work.
+        </p>
+      </div>
+    </div>
+    <div id="serveces">
+      <h1 class="text">
+        <span style="--color: rgb(255, 0, 85)">o</span>ur<span
+          style="--color: rgb(255, 0, 85)"
+          > s</span
+        >ervices
+      </h1>
+      <div class="serveces"></div>
+    </div>
+    <div id="projects">
+      <div class="text">
+        <span style="--color: rgb(255, 0, 85)">p</span>rojects
+      </div>
+      <div id="container" class="projects"></div>
+    </div>
+    <div class="plink" id="projectslink"></div>
+    <div class="contact-me" id="contact-me">
+      <h1 class="text">
+        <span style="--color: rgb(255, 0, 85)">c</span>ontact<span
+          style="--color: rgb(255, 0, 85)"
+          > m</span
+        >e
+      </h1>
+      <div class="contact-platform">
+        <div class="whatsapp-method contact" style="--color: rgb(0, 255, 85)">
+          <div class="brand" style="--color: rgb(0, 255, 85)">
+            <a
+              href="https://wa.me/qr/7VLYJ2LTHGDYI1"
+              class="fa-brands fa-whatsapp"
+              style="--color: rgb(0, 255, 85)"
+              target="_blank"
+            ></a>
+            <h1><span style="--color: rgb(0, 255, 85)">w</span>hatsapp</h1>
+          </div>
+          <div class="contact-description">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+              distinctio, mollitia laboriosam saepe, obcaecati repellendus
+              placeat earum enim odio rem cum quo culpa?
+            </p>
+            <a href="https://wa.me/qr/7VLYJ2LTHGDYI1"
+              ><button style="--color: rgb(0, 255, 85)">contact me</button></a
+            >
+          </div>
+        </div>
+        <div class="gmail-method contact" style="--color: rgb(255, 12, 0)">
+          <div class="brand" style="--color: rgb(255, 38, 0)">
+            <a
+              href="mailto:rayanmabchour19@gmail.com"
+              class="fa-brands fa-google"
+              style="--color: rgb(255, 38, 0)"
+              target="_blank"
+            ></a>
+            <h1><span style="--color: rgb(255, 38, 0)">g</span>mail</h1>
+          </div>
+          <div class="contact-description">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+              distinctio, mollitia laboriosam saepe, obcaecati repellendus
+              placeat earum enim odio rem cum quo culpa?
+            </p>
+            <a href="mailto:rayanmabchour19@gmail.com" target="_blank"
+              ><button style="--color: rgb(255, 38, 0)">contact me</button></a
+            >
+          </div>
+        </div>
+        <div class="instagram-method contact" style="--color: #d60bff">
+          <div class="brand" style="--color: #d60bff">
+            <a
+              href="https://instagram.com/rayan__mabchour?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+              class="fa-brands fa-instagram"
+              style="--color: #d60bff"
+              target="_blank"
+            ></a>
+            <h1><span style="--color: #d60bff">i</span>nstagram</h1>
+          </div>
+          <div class="contact-description">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+              distinctio, mollitia laboriosam saepe, obcaecati repellendus
+              placeat earum enim odio rem cum quo culpa?
+            </p>
+            <a
+              href="https://instagram.com/rayan__mabchour?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D"
+              ><button style="--color: #d60bff">contact me</button></a
+            >
+          </div>
+        </div>
+        <div class="facebook-method contact" style="--color: rgb(0, 145, 255)">
+          <div class="brand" style="--color: rgb(0 145 255)">
+            <a
+              href="https://www.facebook.com/profile.php?id=100080686325242&mibextid=b06tZ0"
+              class="facebook"
+              style="--color: rgb(0 145 255)"
+              target="_blank"
+              >f</a
+            >
+            <h1><span style="--color: rgb(0 145 255)">f</span>acebook</h1>
+          </div>
+          <div class="contact-description">
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa
+              distinctio, mollitia laboriosam saepe, obcaecati repellendus
+              placeat earum enim odio rem cum quo culpa?
+            </p>
+            <a
+              href="https://www.facebook.com/profile.php?id=100080686325242&mibextid=b06tZ0"
+              ><button style="--color: rgb(0 145 255)">contact me</button></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
